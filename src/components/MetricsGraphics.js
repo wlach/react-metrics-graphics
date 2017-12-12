@@ -1,5 +1,6 @@
 import React from 'react';
 import MG from 'metrics-graphics';
+import 'metrics-graphics/dist/metricsgraphics.css';
 
 const MG_ALLOWED_OPTIONS = [
     'aggregate_rollover',
