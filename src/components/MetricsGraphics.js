@@ -155,7 +155,8 @@ export default class MetricsGraphics extends React.Component {
 		}
 	}
 	render(){
-		const _this=this;
+                console.log('HEYA');
+	        const _this=this;
 		return(
 			<div className="metricsGraphicsCon" ref={ (c) =>{ if(c!=null) _this.mgData.target=c; } } />
 		);
